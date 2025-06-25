@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
-import { Play, Pause, Square, RotateCcw } from 'lucide-react';
+import { Play, Pause, Square, RotateCcw, Clock } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
 interface Task {
